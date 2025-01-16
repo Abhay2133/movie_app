@@ -76,11 +76,11 @@ This is a React Native application designed to provide movie information through
 
 ## Screenshots
 
-[Search Image](./screenshots/search.png)
+![Search Image](./screenshots/search.png)
 
-[Home Image](./screenshots/home.png)
+![Home Image](./screenshots/home.png)
 
-[Details Image](./screenshots/details.png)
+![Details Image](./screenshots/details.png)
 
 ## Submission  
 
