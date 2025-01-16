@@ -74,14 +74,6 @@ This is a React Native application designed to provide movie information through
   https://api.tvmaze.com/search/shows?q=${search_term}
   ```  
 
-## Screenshots
-
-![Search Image](./screenshots/search.png)
-
-![Home Image](./screenshots/home.png)
-
-![Details Image](./screenshots/details.png)
-
 ## Submission  
 
 Once the project is complete, submit it using the form linked below:  
@@ -95,7 +87,11 @@ Once the project is complete, submit it using the form linked below:
 
 ## Screenshots  
 
-Include screenshots of the Splash Screen, Home Screen, Search Screen, and Details Screen here to give an overview of the app's UI.  
+![Search Image](./screenshots/search.png)
+
+![Home Image](./screenshots/home.png)
+
+![Details Image](./screenshots/details.png)
 
 ## License  
 
