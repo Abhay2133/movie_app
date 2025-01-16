@@ -1,50 +1,97 @@
-# Welcome to your Expo app 👋
+# React Native Movie App  
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is a React Native application designed to provide movie information through an intuitive and Netflix-inspired user interface. The app consists of four main screens:  
 
-## Get started
+1. **Splash Screen**  
+2. **Home Screen**  
+3. **Search Screen**  
+4. **Details Screen**  
 
-1. Install dependencies
+## Features  
 
+- **Splash Screen**:  
+  Displays an engaging splash screen with a themed image to welcome users.  
+
+- **Home Screen**:  
+  - Fetches and displays a list of movies from the [TVMaze API](https://api.tvmaze.com/search/shows?q=all).  
+  - Shows movie thumbnails, titles, and summaries in a clean and attractive layout.  
+  - Includes a search bar at the top, which navigates to the Search Screen upon interaction.  
+  - Clicking on a movie redirects the user to the Details Screen.  
+
+- **Search Screen**:  
+  - Contains a search bar to query movies using the [TVMaze API](https://api.tvmaze.com/search/shows?q=${search_term}).  
+  - Displays search results similar to the Home Screen.  
+
+- **Details Screen**:  
+  - Shows detailed information about a selected movie, including:  
+    - Title  
+    - Summary  
+    - Image  
+    - Additional metadata from the API response  
+
+- **Navigation**:  
+  - Implements a bottom navigation bar for seamless switching between the Home Screen and Search Screen.  
+
+- **User Interface**:  
+  - A Netflix-inspired UI for an engaging user experience.  
+
+## Getting Started  
+
+### Prerequisites  
+
+- Node.js installed on your machine  
+- Expo CLI (`npm install -g expo-cli`)  
+
+### Installation  
+
+1. Clone this repository:  
+   ```bash
+   git clone https://github.com/Abhay2133/movie_app
+   cd movie_app
+   ```  
+
+2. Install dependencies:  
    ```bash
    npm install
-   ```
+   ```  
 
-2. Start the app
-
+3. Start the development server:  
    ```bash
-    npx expo start
-   ```
+   npm start
+   ```  
 
-In the output, you'll find options to open the app in a
+4. Scan the QR code with the Expo Go app on your mobile device to run the app.  
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## API Endpoints  
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- Fetch all movies:  
+  ```plaintext
+  https://api.tvmaze.com/search/shows?q=all
+  ```  
 
-## Get a fresh project
+- Search for movies:  
+  ```plaintext
+  https://api.tvmaze.com/search/shows?q=${search_term}
+  ```  
 
-When you're ready, run:
+## Submission  
 
-```bash
-npm run reset-project
-```
+Once the project is complete, submit it using the form linked below:  
+[Project Submission Form](https://docs.google.com/forms/d/e/1FAIpQLSeQ-9PffLbFkzTFfNNv6SqmlyKhV8OT5TJVkPiHBOq9G1-YTQ/viewform)  
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Technologies Used  
 
-## Learn more
+- React Native  
+- Expo  
+- [TVMaze API](https://www.tvmaze.com/api)  
 
-To learn more about developing your project with Expo, look at the following resources:
+## Screenshots  
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Include screenshots of the Splash Screen, Home Screen, Search Screen, and Details Screen here to give an overview of the app's UI.  
 
-## Join the community
+## License  
 
-Join our community of developers creating universal apps.
+This project is licensed under the MIT License. See the LICENSE file for details.  
+```  
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+You can replace `<repository-url>` with the actual URL of your repository and include relevant screenshots to enhance the documentation.

@@ -71,7 +71,11 @@ export default function Details() {
           contentWidth={width}
           source={{ html: viewData?.summary || "" }}
           tagsStyles={{
-            p: { margin: 5, fontSize: 16 },
+            p: {
+              margin: 5,
+              fontSize: 16,
+              color: colorScheme == "dark" ? "#eee" : "#111",
+            },
           }}
         />
 
